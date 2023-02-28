@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+
+<body>
+
+  <div class="grid-container">
+    <header class="header-container">
+      <h1>Deltrece's 1st Blog Project</h1>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="blog">Blog</a></li>
+        <li><a href="shop">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </header>
+  </div>
+
+  <h2>You're Invited to the Party...Grab Your Ticket Below!</h2>
+  <div id="eventbrite-widget-container-535360326147"></div>
+
+  <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+  <script type="text/javascript">
+    var exampleCallback = function () {
+      console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+      // Required
+      widgetType: 'checkout',
+      eventId: '535360326147',
+      iframeContainerId: 'eventbrite-widget-container-535360326147',
+
+      // Optional
+      iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+      onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+    });
+  </script>
+
+  <footer class="footer">
+    <p>&#169; 2023 <a href="http://www.deltrece.net">Deltrece.net</a> All rights reserved. Used with permission.</p>
+  </footer>
+
+</body>
+
+</html>
