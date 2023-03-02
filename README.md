@@ -1,5 +1,5 @@
 # :file_folder: Project Title
-My First Coded Blog Project
+## My First Coded Blog Project
 
 ![alt text](https://media.giphy.com/media/RYSYhrxiXHTuEKwhwJ/giphy.gif)
 
