@@ -53,6 +53,10 @@
   cursor: pointer;
   display: inline-block;
 }
+.btn a {
+  color: black;
+  text-decoration: none;
+}
 
 .btn:hover {background: red;}
 
