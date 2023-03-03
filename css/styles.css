@@ -141,6 +141,9 @@
     height: 600px;
   }
   .google-calendar {
-    max-width: fit-content;
+    max-width: 315px;
+    max-height: max-content;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

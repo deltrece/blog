@@ -25,34 +25,36 @@
     </header>
   </div>
 
-  <h2>You're Invited to the Party...Grab Your Ticket Below!</h2>
-  <div id="eventbrite-widget-container-535360326147">
+  <div>
+    <h2>You're Invited to the Party...Grab Your Ticket Below!</h2>
+    <div id="eventbrite-widget-container-535360326147">
 
-    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+      <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 
-    <script type="text/javascript">
-      var exampleCallback = function () {
-        console.log('Order complete!');
-      };
+      <script type="text/javascript">
+        var exampleCallback = function () {
+          console.log('Order complete!');
+        };
 
-      window.EBWidgets.createWidget({
-        // Required
-        widgetType: 'checkout',
-        eventId: '535360326147',
-        iframeContainerId: 'eventbrite-widget-container-535360326147',
+        window.EBWidgets.createWidget({
+          // Required
+          widgetType: 'checkout',
+          eventId: '535360326147',
+          iframeContainerId: 'eventbrite-widget-container-535360326147',
 
-        // Optional
-        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
-      });
-    </script>
-  </div>
-
-  <div id="google-calendar"><iframe
-      src="https://calendar.google.com/calendar/embed?height=580&wkst=2&bgcolor=%23E67C73&ctz=America%2FNew_York&title=Things%20To%20Do%20By%20Dee%20-%20A%20Collection%20of%20Interesting%20Events%20to%20Attend&showPrint=0&showTabs=0&showCalendars=0&showNav=1&src=Y19xcGNuYXVpMGhmaGV0cjNoNTlxZWhtMTluY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%239E69AF"
-      style="border-width:0" width="600" height="580" frameborder="0" scrolling="no"></iframe>
+          // Optional
+          iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+          onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+        });
+      </script>
     </div>
 
+    <div id="google-calendar"><iframe
+        src="https://calendar.google.com/calendar/embed?height=580&wkst=2&bgcolor=%23E67C73&ctz=America%2FNew_York&title=Things%20To%20Do%20By%20Dee%20-%20A%20Collection%20of%20Interesting%20Events%20to%20Attend&showPrint=0&showTabs=0&showCalendars=0&showNav=1&src=Y19xcGNuYXVpMGhmaGV0cjNoNTlxZWhtMTluY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%239E69AF"
+        style="border-width:0" width="600" height="580" frameborder="0" scrolling="no"></iframe>
+    </div>
+  </div>
+  
   <footer class="footer">
     <p>&#169; 2023 <a href="http://www.deltrece.net">Deltrece.net</a> All rights reserved. Used with permission.</p>
   </footer>
