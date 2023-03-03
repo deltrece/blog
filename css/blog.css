@@ -35,3 +35,8 @@
 .blog-author {
   font: 10px Arial, sans-serif;
 }
+@media screen and (max-width: 425px) {
+  .blog-container {
+   grid-template-columns: 1fr;
+  }
+}
