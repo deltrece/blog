@@ -91,11 +91,12 @@
   display: flex;
   flex-direction: column;
 }
+
 .google-calendar {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 2px;
+  padding: 0px;
 }
 
 /* #social-link-container {
@@ -140,11 +141,17 @@
   .eventbrite-widget-container-535360326147 {
     height: 600px;
   }
+
   .google-calendar {
     max-width: 300px;
     max-height: max-content;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .google-calendar {
+    max-width: 300px;
   }
 }
