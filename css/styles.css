@@ -1,5 +1,6 @@
 @import "./about.css";
 @import "./blog.css";
+@import "./social.css";
 
 .item1 {
   grid-area: header;
@@ -91,7 +92,7 @@
   flex-direction: column;
 }
 
-#social-link-container {
+/* #social-link-container {
   display: inline-block;
   grid-column: auto;
   align-items: flex-start;
@@ -99,6 +100,14 @@
   max-height: 100px;
   padding: 25px;
 }
+#social-link-container-blog {
+  display: inline-block;
+  grid-column: auto;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-height: 100px;
+  padding: 25px;
+} */
 
 .footer {
   position: relative;
