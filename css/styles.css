@@ -115,4 +115,7 @@
   .nav-menu {
     align-items: center;
   }
+  .quote-container {
+    max-width: fit-content;
+  }
 }
