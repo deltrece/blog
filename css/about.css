@@ -69,6 +69,7 @@
   width: 100%;
   text-align: center;
 }
+
 @media screen and (min-width: 768px) {
   .about-image {
     max-width: 50%;

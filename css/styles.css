@@ -108,16 +108,20 @@
   width: 100%;
   text-align: center;
 }
+
 @media screen and (max-width: 425px) {
   .header-container {
-   display: block;
+    display: block;
   }
+
   .nav-menu {
     align-items: center;
   }
+
   .quote-container {
     max-width: fit-content;
   }
+
   .eventbrite-widget-container-535360326147 {
     height: 600px;
   }
