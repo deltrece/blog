@@ -1,6 +1,7 @@
 @import "./about.css";
 @import "./blog.css";
 @import "./social.css";
+@import "./404.css";
 
 .item1 {
   grid-area: header;
