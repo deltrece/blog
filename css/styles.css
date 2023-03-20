@@ -81,6 +81,17 @@
 .fend-header {
   color: #3E1596;
 }
+.q-of-day{
+  border: 1px solid #3E1596;
+  padding: 15px;
+  border-radius: 5px;
+  max-width: fit-content;
+  margin: 10px;
+}
+
+.q-of-day h2 {
+  color: ##263e7f;
+}
 
 .figcaption {
   color: rgb(234, 15, 201);
