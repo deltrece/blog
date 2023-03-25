@@ -89,11 +89,11 @@
   margin: 10px;
 }
 
-.q-of-day-prev h2 {
+.q-of-day .q-of-day-prev h2 {
   color: #263e7f;
 }
 
-.q-of-day-curr h2 {
+.q-of-day .q-of-day-curr h2 {
   color: #0e3c45;
 }
 
