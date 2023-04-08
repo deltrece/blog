@@ -64,6 +64,10 @@
   color: #3336ff;
 }
 
+.header-video {
+  display: center;
+}
+
 .blog-image {
   max-width: 100%;
   max-height: 100%;
@@ -155,7 +159,7 @@
     display: block;
   }
   .header-video {
-    display: center;
+    max-width: fit-content;
   }
   .quote-container {
     max-width: fit-content;
@@ -197,5 +201,8 @@
   .social-link-container {
     align-items: center;
     display: inline-block;
+  }
+  .header-video {
+    max-width: 300px;
   }
 }
