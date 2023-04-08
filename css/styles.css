@@ -71,6 +71,7 @@
 
 .header-video {
   display: center;
+  height: auto;
 }
 
 .blog-image {
@@ -163,9 +164,7 @@
   .header-container {
     display: block;
   }
-  .header-video {
-    max-width: fit-content;
-  }
+  
   .quote-container {
     max-width: fit-content;
   }
