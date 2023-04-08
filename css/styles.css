@@ -60,8 +60,13 @@
   font-size: 14px;
 }
 
-.nav-menu a:hover {
-  color: #3336ff;
+.nav-menu li a:hover {
+  background-color: #809cf3cf;
+}
+
+
+.active {
+  background-color: #A7E3FD !important;
 }
 
 .header-video {
@@ -166,10 +171,12 @@
   }
 
   .eventbrite-widget-container-612509310837 {
-    height: 600px;
+    height: 900px;
+    margin: auto;
   }
   .eventbrite-widget-container-612453895087{
-    height: 600px;
+    height: 900px;
+    margin: auto;
   }
 
   .google-calendar {
