@@ -36,6 +36,7 @@
   <title>Events</title>
   <link rel="icon" type="image/x-icon" href="../assets/images/deltrece-favicon.png">
   <link rel="stylesheet" href="../css/styles.css" />
+
 </head>
 
 <body>
@@ -56,42 +57,44 @@
   </div>
 
   <div>
-    <h2>You're Invited! <br>
-    </h2>
-    <p>Check Back Soon For Your Tickets To The Next Eventbrite Event<br>
+    <h2>You're Invited!</h2>
+    <!-- <p>Check Back Soon For Your Tickets To The Next Eventbrite Event<br>
       <br>
       <a href="https://deltrece.eventbrite.com" target="_blank">
         <img src="../assets/images/icons8-eventbrite-a-u.s.-based-event-management-and-ticketing-website-24.png"
           alt="eventbrite icon"></a>
-    </p>
-    <!--    <div id="eventbrite-widget-container-535360326147">
+    </p> -->
+  </div>
 
-      <h3>Eventbrite Tickets Available NOW!</h3>
-      <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+  <div id="eventbrite-widget-container-612453895087">
+    <h3>Game Night Tickets Available Now!</h3>
 
-      <script type="text/javascript">
-        var exampleCallback = function () {
-          console.log('Order complete!');
-        };
+    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 
-        window.EBWidgets.createWidget({
-          // Required
-          widgetType: 'checkout',
-          eventId: '535360326147',
-          iframeContainerId: 'eventbrite-widget-container-535360326147',
+    <script type="text/javascript">
+      var exampleCallback = function () {
+        console.log('Order complete!');
+      };
 
-          // Optional
-          iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-          onOrderComplete: exampleCallback  // Method called when an order has successfully completed
-        });
-      </script>
-    </div> -->
+      window.EBWidgets.createWidget({
+        // Required
+        widgetType: 'checkout',
+        eventId: '612453895087',
+        iframeContainerId: 'eventbrite-widget-container-612453895087',
 
-    <h3>Got Plans? Check Out These Other Events... </h3>
-    <div id="google-calendar"><iframe
-        src="https://calendar.google.com/calendar/embed?height=440&wkst=2&bgcolor=%23C0CA33&ctz=America%2FNew_York&title=Things%20To%20Do%20By%20Dee%20-%20A%20Collection%20of%20Interesting%20Events%20to%20Attend&showPrint=0&showTabs=0&showCalendars=0&showNav=1&src=Y19xcGNuYXVpMGhmaGV0cjNoNTlxZWhtMTluY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%239E69AF"
-        style="border-width:0" width="315" height="440" frameborder="0" scrolling="no"></iframe>
-    </div>
+        // Optional
+        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+      });
+    </script>
+  </div>
+
+
+  <h3>Got Plans? Check Out These Other Events... </h3>
+  <div id="google-calendar"><iframe
+      src="https://calendar.google.com/calendar/embed?height=440&wkst=2&bgcolor=%23C0CA33&ctz=America%2FNew_York&title=Things%20To%20Do%20By%20Dee%20-%20A%20Collection%20of%20Interesting%20Events%20to%20Attend&showPrint=0&showTabs=0&showCalendars=0&showNav=1&src=Y19xcGNuYXVpMGhmaGV0cjNoNTlxZWhtMTluY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%239E69AF"
+      style="border-width:0" width="315" height="440" frameborder="0" scrolling="no"></iframe>
+  </div>
   </div>
 
   <footer class="footer">

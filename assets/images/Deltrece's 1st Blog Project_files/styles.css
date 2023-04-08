@@ -154,9 +154,7 @@
   .header-container {
     display: block;
   }
-  .header-video {
-    display: center;
-  }
+
   .quote-container {
     max-width: fit-content;
   }
