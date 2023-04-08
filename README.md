@@ -42,7 +42,8 @@ Fork this project and personalize it to your desire.
 Udacity clssroom module, library books and Youtube videos.
 
 ## :bulb: :house: Lighthouse Report
-Accessibility Results: <img src="assets/site-lighthouse.png"/>
+
+Accessibility Results: <img src="assets/images/site-lighthouse.png"/>
 
 ## :ballot_box_with_check: License
 
