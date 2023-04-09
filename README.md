@@ -39,7 +39,7 @@ Fork this project and personalize it to your desire.
 
 ## :books: Resources
 
-Udacity clssroom module, library books and Youtube videos.
+Udacity clssroom module, library books, YouTube videos & other web developers & designers.
 
 ## :bulb: :house: Lighthouse Report
 
