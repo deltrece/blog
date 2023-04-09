@@ -238,7 +238,8 @@
     padding: 8px;
   }
   .content-container-1 {
-    margin: 0px !important;
+    margin: 16px !important;
+    padding: 8px !important;
     max-width: fit-content;
   }
 }
