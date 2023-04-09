@@ -242,4 +242,8 @@
     padding: 8px !important;
     max-width: fit-content;
   }
+  .content-container-1 h3 {
+    margin: 3px !important;
+    font-size: small;
+  }
 }
