@@ -56,7 +56,9 @@
 }
 
 
-/* animations */
+/* 
+====Animations============ 
+*/
 
 .wheel {
   animation: wheel-rotate 6s ease infinite;

@@ -3,6 +3,9 @@
 @import "./social.css";
 @import "./404.css";
 
+/*
+===Grid Info=================
+*/
 .item1 {
   grid-area: header;
 }
@@ -40,7 +43,9 @@
   max-width: 600px;
   min-height: 20px;
 }
-
+/*
+===Nav Menu=================
+*/
 .nav-menu {
   list-style-type: none;
   display: flex;
@@ -64,15 +69,22 @@
   background-color: #809cf3cf;
 }
 
-
 .active {
   background-color: #A7E3FD !important;
 }
+/*
+===Header Video=================
+*/
+
 
 .header-video {
   display: center;
   height: auto;
 }
+
+/*
+===Other=================
+*/
 
 .blog-image {
   max-width: 100%;
@@ -152,6 +164,9 @@
   width: 100%;
   text-align: center;
 } 
+/*
+===Media Queries=================
+*/
 
 @media screen and (max-width: 768px){
   .fend-page {
