@@ -1,12 +1,12 @@
 @import "./styles.css";
 
-#social-link-container {
-  display: inline-block;
+.social-link-container {
+  display: block;
   grid-column: auto;
   align-items: flex-start;
   justify-content: space-between;
   max-height: 100px;
-  padding: 25px;
+  padding: 10px;
 }
 #social-link-container-blog {
   display: inline-block;
