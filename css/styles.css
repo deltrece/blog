@@ -193,6 +193,10 @@
   .quote-container {
     max-width: fit-content;
   }
+  .social-link-container ul {
+    justify-content: center;
+    display: flex !important;
+  }
 
   #eventbrite-widget-container-612453895087{
     height: 900px;
@@ -226,15 +230,13 @@
     max-width: 280px;
     padding: 1px !important;
   }
-  .social-link-container {
-    align-items: center;
-    display: inline-block;
-  }
+ 
   .header-video {
     max-width: 300px;
   }
   #eventbrite-widget-container-612453895087{
-    height: fit-content !important;
+    /*height: fit-content !important;*/
+    max-height: fit-content !important;
     padding: 8px;
   }
   .content-container-1 {

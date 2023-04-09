@@ -1,7 +1,7 @@
 @import "./styles.css";
 
 .social-link-container {
-  display: block;
+  display: inline-block;
   grid-column: auto;
   align-items: flex-start;
   justify-content: space-between;
