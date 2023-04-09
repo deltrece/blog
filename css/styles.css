@@ -189,13 +189,9 @@
     max-width: fit-content;
   }
 
-  .eventbrite-widget-container-612509310837 {
+  #eventbrite-widget-container-612453895087{
     height: 900px;
-    margin: auto;
-  }
-  .eventbrite-widget-container-612453895087{
-    height: 900px;
-    margin: auto;
+    margin: 8px;
   }
 
   .google-calendar {
@@ -232,5 +228,9 @@
   }
   .header-video {
     max-width: 300px;
+  }
+  #eventbrite-widget-container-612453895087{
+    height: fit-content !important;
+    padding: 8px;
   }
 }
